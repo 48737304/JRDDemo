@@ -1,0 +1,6 @@
+module Pods_JRDDemo_JRDDemoUITests {
+  umbrella header "Pods-JRDDemo-JRDDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

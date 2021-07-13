@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JRDLogin (0.1.0)
+  - JRDNetWork (0.1.0):
+    - JRDLogin
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - JRDLogin (from `../../JRDLogin`)
+  - JRDNetWork (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JRDLogin:
+    :path: "../../JRDLogin"
+  JRDNetWork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JRDLogin: 65ae436797754b379ac106dcafa847f3e8356381
+  JRDNetWork: 80bd0eb3e4a734a6ba14f9cce7b6b5ddf5f171e8
+
+PODFILE CHECKSUM: 213f56d00d310e654a4bbd5a592d25dff65d0558
+
+COCOAPODS: 1.10.1

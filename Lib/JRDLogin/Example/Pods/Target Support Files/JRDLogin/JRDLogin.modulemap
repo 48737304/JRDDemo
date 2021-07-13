@@ -1,0 +1,6 @@
+framework module JRDLogin {
+  umbrella header "JRDLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

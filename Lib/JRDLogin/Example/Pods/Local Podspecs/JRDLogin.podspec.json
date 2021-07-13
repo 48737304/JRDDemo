@@ -1,0 +1,22 @@
+{
+  "name": "JRDLogin",
+  "version": "0.1.0",
+  "summary": "A short description of JRDLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/weixin.gao/JRDLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "weixin.gao": "weixin.gao@tcl.com"
+  },
+  "source": {
+    "git": "https://github.com/weixin.gao/JRDLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JRDLogin/Classes/**/*"
+}

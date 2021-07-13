@@ -1,0 +1,6 @@
+framework module JRDNetWork {
+  umbrella header "JRDNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}

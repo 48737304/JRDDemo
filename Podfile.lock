@@ -1,0 +1,22 @@
+PODS:
+  - JRDLogin (0.1.0)
+  - JRDNetWork (0.1.0):
+    - JRDLogin
+
+DEPENDENCIES:
+  - JRDLogin (from `Lib/JRDLogin`)
+  - JRDNetWork (from `Lib/JRDNetWork`)
+
+EXTERNAL SOURCES:
+  JRDLogin:
+    :path: Lib/JRDLogin
+  JRDNetWork:
+    :path: Lib/JRDNetWork
+
+SPEC CHECKSUMS:
+  JRDLogin: 65ae436797754b379ac106dcafa847f3e8356381
+  JRDNetWork: 80bd0eb3e4a734a6ba14f9cce7b6b5ddf5f171e8
+
+PODFILE CHECKSUM: 751cd44bfed68df122d9e44edcf09a5dc5ecf69e
+
+COCOAPODS: 1.10.1
